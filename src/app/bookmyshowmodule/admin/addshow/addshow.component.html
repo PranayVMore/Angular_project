@@ -1,0 +1,38 @@
+<form [formGroup]="reactiveFormData" (ngSubmit)="submitFun()">
+
+  <div class="inp1">
+    <label>Id</label>
+    <input type="number" placeholder="Id" formControlName="id">
+  </div> <br>
+  <div class="inp2">
+    <label>Tittle</label>
+    <input type="text" placeholder="Tittle" formControlName="tittle">
+  </div> <br>
+  <div class="inp3">
+    <label for="imagsrc">Image</label>
+    <img [src]="imgPath" alt="" width="100px" height="100px">
+    <input type="file"  id="imagsrc" (change)="changeImg($event)">
+  </div> <br>
+  <div class="inp4">
+    <label for="videourl"></label>
+    <input type="file"  id="videourl" (change)="changeVideo($event)">
+    </div> <br>
+  <div class="inp5">
+     <label>rating</label>
+    <input type="number" placeholder="Rating" formControlName="rating">
+  </div> <br>
+  <div class="inp6">
+    <label>Languages</label>
+    <input type="text" placeholder="Languages" formControlName="languages">
+  </div> <br>
+  <div class="inp7">
+    <label>Category</label>
+    <input type="text" placeholder="Category" formControlName="category">
+  </div> <br>
+  <div class="inp8">
+    <label>Price</label>
+    <input type="number" placeholder="Price" formControlName="price">
+  </div> <br>
+  <button>Add Movie</button>
+
+</form>

@@ -1,0 +1,15 @@
+
+<div class="form">
+  <select #Profileuser>
+    <option value="Admin">Admin</option>
+    <option value="userDetails">User</option>
+  </select>
+  <br>
+  <input type="text" placeholder="Name" #nm>
+  <br>
+  <input type="password"  placeholder="Password" #pass>
+
+  <button class="btn btn-outline-primary" (click)="login(Profileuser.value,nm.value, pass.value) ">Sign In</button>
+
+</div>
+

@@ -1,0 +1,32 @@
+<button (click)="addMovie()" class="btn btn-primary"> Add Movie</button>
+
+
+<table>
+  <!--<thead>
+     <tr>
+      <th scope="col">id:</th>
+      <th scope="col">Image</th>
+      <th scope="col">Tittle</th>
+      <th scope="col">Price</th>
+      <th scope="col" colspan="2"></th>
+    </tr>
+</thead>-->
+<tbody >
+  <tr *ngFor="let data of ProductData">
+    <th scope="row">{{data.id}}</th>
+    <td>
+      <img [src]="data.image" width="70px" height="70px" alt="">
+    </td>
+    <td>{{data.tittle}}</td>
+    <td>{{data.price}}</td>
+    <!-- Attribute Directive -->
+    <td (click)="updateMovie(data.id)" >
+      <i class="fa-solid fa-pen-to-square"></i>
+    </td>
+    <td  (click)="deleteMovietFun(data.id)">
+      <i class="fa-solid fa-trash"></i>
+    </td>
+
+  </tr>
+</tbody>
+</table>

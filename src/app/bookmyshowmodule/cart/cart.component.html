@@ -1,0 +1,60 @@
+<!-- <ng-container *ngIf="product.length !=0">
+  <div class="container">
+      <div class="card-table">
+        <div class="card-product">
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th>sr.no</th>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Product categry</th>
+                <th>Product price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of product; let i= index">
+                <td>{{i+1}}</td>
+                <td><img style="width: 120px;" src="{{product.image}}" alt=""></td>
+                <td>{{product.title}}</td>
+                <td style="width: 25%;">{{product.category}}</td>
+                <th style="width: 12%;">{{product.price}}</th>
+                <td style="width: 12%;">{{product.quantity}}</td>
+                <td style="width: 12%;">{{product.total}}</td>
+                <td>
+                  <button (click)="removeItem(product)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4"></td>
+                <td><button (click)="emptycart()" class="btn btn-danger">Empty Cart</button></td>
+                <td><button routerLink="/home" class="btn btn-primary">Shop More</button></td>
+                <td><button class="btn btn-success">CheckOut</button></td>
+                <td><strong>Grand Total : ${{grandTotal}}</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+</ng-container>
+
+
+
+
+<ng-container *ngIf="product.length ==0">
+    <div class="container">
+          <div class="card">
+            <h3 class="card-title">My Cart</h3>
+          </div>
+          <div class="center">
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/52/51/happy-woman-shopping-online-internet-vector-8085251.jpg" alt="">
+            <h4>Your cart is empty!</h4>
+            <h6>Add item to it now</h6>
+            <button routerLink="/home" class="btn btn-primary">Shop Now</button>
+          </div>
+    </div>
+</ng-container> -->

@@ -1,0 +1,261 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Admin": [
+    {
+      "id": 1,
+      "Username": "admin1",
+      "Password": "Admin@123"
+    },
+    {
+      "id": 2,
+      "Username": "admin2",
+      "Password": "Admin@321"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": 1,
+      "Name": "Meet",
+      "Username": "meet@123",
+      "Password": "pass@123",
+      "Age": 22,
+      "Email": "meet@gmail.com",
+      "MobileNo": 9867452312
+    },
+    {
+      "id": 2,
+      "Name": "Sumit",
+      "Username": "sumit@133",
+      "Password": "suss@143",
+      "Age": 23,
+      "Email": "sumit@gmail.com",
+      "MobileNo": 9867434312
+    },
+    {
+      "id": 3,
+      "Name": "Dharav",
+      "Username": "dharav@223",
+      "Password": "dhav@223",
+      "Age": 24,
+      "Email": "dharav@gmail.com",
+      "MobileNo": 9867452333
+    },
+    {
+      "id": 4,
+      "Name": "Pranay",
+      "Username": "meet@123",
+      "Password": "pass@123",
+      "Age": 24,
+      "Email": "pranay@gmail.com",
+      "MobileNo": 9867452443
+    },
+    {
+      "id": 5,
+      "Name": "Sujal",
+      "Username": "sujal@1233",
+      "Password": "sujal@1233",
+      "Age": 23,
+      "Email": "sujal@gmail.com",
+      "MobileNo": 9867452321
+    }
+  ],
+  "Movie": [
+    {
+      "id": 1,
+      "tittle": "Naal - Bhag 2",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/naal--bhag-2-et00374217-1699447125.jpg",
+      "videourl": "https://youtu.be/2Apq2gPpFUo",
+      "rating": 7.4,
+      "languages": "Marathi",
+      "category": "•Drama,Family•U",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "tittle": "Tiger 3",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NDEyLjNLIExpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00313411-dvmdcxgrrk-portrait.jpg",
+      "videourl": "https://youtu.be/KjbtuqENvVE",
+      "rating": 7.4,
+      "languages": "Hindi,Tamil,Telgu",
+      "category": "•Action,Thriller•UA",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "tittle": "The Marvels",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-ODQuN0sgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00310793-pcnclutcvc-portrait.jpg",
+      "videourl": "https://youtu.be/mZ3aZOjzLHE",
+      "rating": 7.4,
+      "languages": "English,Hindi,Tamil,Telugu",
+      "category": "•Action,Adventure,Fantasy•UA",
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "tittle": "12th Fail",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS41LzEwICAzMS40SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00363787-klssedjjus-portrait.jpg",
+      "videourl": "https://youtu.be/KjbtuqENvVE",
+      "rating": 7.4,
+      "languages": "Hindi,Tamil,Kannada",
+      "category": "•Drama•U",
+      "price": 1200
+    },
+    {
+      "id": 5,
+      "tittle": "Leo",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4zLzEwICA0ODQuN0sgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00351731-fmmuytjtzl-portrait.jpg",
+      "videourl": "https://youtu.be/w9azPPnadh0",
+      "rating": 7.4,
+      "languages": "Hindi",
+      "category": "•Action,Thriller•UA",
+      "price": 1200
+    },
+    {
+      "id": 6,
+      "tittle": " Boyz 4 ",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny40LzEwICAyLjZLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00369093-lgfsaynexb-portrait.jpg",
+      "videourl": "https://youtu.be/kznsdS_wm9o",
+      "rating": 8,
+      "languages": "Marathi",
+      "category": "•Comedy,Drama•A",
+      "price": 800
+    },
+    {
+      "id": 7,
+      "tittle": "Sajini Shinde Ka Viral video",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny40LzEwICAxLjlLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00372151-ynjufbspdm-portrait.jpg",
+      "videourl": "https://youtu.be/kznsdS_wm9o",
+      "rating": 7.4,
+      "languages": "Hindi",
+      "category": "•Family,Social,Thriller•UA",
+      "price": 1200
+    }
+  ],
+  "Home": [
+    {
+      "id": 1,
+      "tittle": " ",
+      "image": "",
+      "videourl": "",
+      "category": "r"
+    },
+    {
+      "id": 2,
+      "tittle": " ",
+      "image": "",
+      "videourl": "",
+      "category": ""
+    },
+    {
+      "id": 3,
+      "tittle": "",
+      "image": "",
+      "videourl": "",
+      "category": ""
+    },
+    {
+      "id": 4,
+      "tittle": "",
+      "image": "",
+      "videourl": "",
+      "category": ""
+    },
+    {
+      "id": 5,
+      "tittle": "",
+      "image": "",
+      "videourl": "",
+      "category": ""
+    }
+  ],
+  "Stream": [
+    {
+      "id": 1,
+      "tittle": "You Hurt My Feelings",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/you-hurt-my-feelings-et00374949-1698912094.jpg",
+      "category": "•Comedy,Drama•18+•",
+      "language": "English",
+      "description": " A novelist's marriage starts to crumble after she overhears her husband's assessment of her work."
+    },
+    {
+      "id": 2,
+      "tittle": "Aatmapamphlet",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/aatmapamphlet-et00370579-1698936850.jpg",
+      "category": "•Comedy,Drama•UA",
+      "language": "Marathi",
+      "description": "Aatmapamphlet is a satirical eccentric biopic of a 90`s school kid Ashish where he witnesses dramatic sociopolitical transformations around him, his family, city and the entire India."
+    },
+    {
+      "id": 3,
+      "tittle": "The Nun II",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-nun-ii-et00363916-1696405966.jpg",
+      "category": "•Horror,Mystery,Thriller•A",
+      "language": "English,Hindi,Tamil,Telugu",
+      "description": "The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun."
+    },
+    {
+      "id": 4,
+      "tittle": "The Thief Collector",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-thief-collector-et00373981-1698231017.jpg",
+      "category": "•Crime,Documentry•13+",
+      "language": "English",
+      "description": "In 1985, Willem de Kooning's Woman-Ochre, one of the most valuable paintings, was stolen from the University of Arizona Museum of Art. 32 years later, it was found hanging in a New Mexico home."
+    },
+    {
+      "id": 5,
+      "tittle": "The Wrath of Becky",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-wrath-of-becky-et00374864-1698836235.jpg",
+      "category": "•Action,Horror,Thriller•18+",
+      "language": "English",
+      "description": "Becky finds herself going toe to toe against the leader of a fascist organization."
+    },
+    {
+      "id": 6,
+      "tittle": "The Equalizer 3",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-equalizer-3-et00358212-1696502422.jpg",
+      "category": "•Action,Crime,Thriller•A",
+      "language": "English",
+      "description": "Finding himself surprisingly at home in Southern Italy, Robert McCall (Denzel Washington) discovers his new friends are under the control of local crime bosses. As events turn deadly, McCall must become his friends protector by taking on the mafia."
+    },
+    {
+      "id": 7,
+      "tittle": "Beyond Paradise",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/beyond-paradise-et00368978-1693919980.jpg",
+      "category": "•Crime,Drama,Mystery•13+",
+      "language": "English",
+      "description": "Death in Devon. DI Humphrey Goodman relocates from tropical Saint Marie to sleepy Shipton Abbott, cracking cases and hoping for happily ever after with fiancee Martha."
+    },
+    {
+      "id": 8,
+      "tittle": "Halfway Home",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/halfway-home-et00374119-1698231466.jpg",
+      "category": "•Fantasy,Romantic,Sci-Fi•A",
+      "language": "Hungarian",
+      "description": "A night guard in a morgue is the chosen one to help the dead complete their unfinished business on earth. One day, the girl of his dreams appears there."
+    },
+    {
+      "id": 9,
+      "tittle": "My Big Fat Greek Wedding 3",
+      "image": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/my-big-fat-greek-wedding-3-et00361714-1698067915.jpg",
+      "category": "•Comedy,Romantic•13+",
+      "language": "English",
+      "description": "From writer and director Nia Vardalos, the worldwide phenomenon My Big Fat Greek Wedding is coming back to theaters with a brand-new adventure. Join the Portokalos family as they travel to a family reunion in Greece for a heartwarming and hilarious trip full of love, twists and turns. Opa!"
+    }
+  ]
+}
